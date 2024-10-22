@@ -1,4 +1,4 @@
-``# regex-helper-ts
+# regex-helper-ts
 
 `regex-helper-ts` is a reusable, lightweight library that provides common, validated regex patterns along with utilities for matching, validation, and extraction. This library makes it easy for developers to handle common tasks like validating emails, phone numbers, URLs, and more—without writing complex regular expressions from scratch.
 
@@ -115,6 +115,20 @@ console.log(patterns.phone); // Output: /^\+?[1-9]\d{1,14}$/
     
 -   **`extractUrls(text: string): string[]`**  
     Extracts all URLs from a block of text.
+
+
+## Contributing
+
+Contributions are welcome! If you’d like to contribute, please follow these steps:
+
+1.  Fork the repository.
+```bash
+git clone https://github.com/<your-username>/regex-helper-ts.git
+```
+3.  Clone your forked repository:
+```bash
+git checkout -b feature/your-feature-name
+```
 
 ## **License**
 
