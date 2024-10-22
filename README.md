@@ -125,10 +125,24 @@ Contributions are welcome! If you’d like to contribute, please follow these st
 ```bash
 git clone https://github.com/<your-username>/regex-helper-ts.git
 ```
-3.  Clone your forked repository:
+2.  Clone your forked repository:
 ```bash
 git checkout -b feature/your-feature-name
 ```
+
+3. Create a new branch for your feature:
+```bash
+git checkout -b feature/your-feature-name
+```
+4. Make your changes and commit them:
+```bash
+git commit -m "Add new feature"
+```
+5. Push your branch to GitHub:
+```bash
+git push origin feature/your-feature-name
+```
+6. Open a Pull Request.
 
 ## **License**
 
@@ -144,7 +158,7 @@ If you find any bugs or have feature requests, please open an issue on the [GitH
 
 ## **Author**
 
-[Anas](https://github.com/Canasjmirza)  
+[Anas](https://github.com/anasjmirza)  
 Email: ajmhimself@gmail.com
 
 ----------
