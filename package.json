@@ -1,6 +1,6 @@
 {
   "name": "regex-helper-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable, lightweight library that provides common, validated regex patterns and exposes simple APIs for regex-based operations such as matching, validation, and extraction.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
