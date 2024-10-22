@@ -50,7 +50,7 @@ yarn add regex-helper-ts
 
 Validate an email or a strong password with minimal code:
 
-```
+```typescript
 import { isValidEmail, isStrongPassword } from "regex-helper-ts";
 
 const email = "user@example.com";
@@ -65,7 +65,7 @@ console.log(isStrongPassword(password)); // Output: true
 
 Extract all emails or URLs from a block of text
 
-```
+```typescript
 
 import { extractEmails, extractUrls } from "regex-helper-ts";
 
@@ -79,7 +79,7 @@ console.log(extractUrls(text)); // Output: ['https://example.com']
 
 Use the built-in regex patterns directly:
 
-```
+```typescript
 import { patterns } from "regex-helper-ts";
 
 console.log(patterns.email); // Output: /^[^\s@]+@[^\s@]+\.[^\s@]+$/

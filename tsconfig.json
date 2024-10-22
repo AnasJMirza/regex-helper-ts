@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "./dist/index.d.ts",
+        "strict": true
+    }
+}

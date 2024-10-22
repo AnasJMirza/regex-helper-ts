@@ -4,15 +4,21 @@
   "description": "A reusable, lightweight library that provides common, validated regex patterns and exposes simple APIs for regex-based operations such as matching, validation, and extraction.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "npx rollup -c"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anasjmirza/regex-helper-ts.git"
+    "url": "git+https://github.com/anasjmirza/regex-helper-ts.git"
   },
-  "keywords": ["regex", "typescript", "validation", "library", "npm-package"],
+  "keywords": [
+    "regex",
+    "typescript",
+    "validation",
+    "library",
+    "npm-package"
+  ],
   "author": {
     "name": "Anas",
     "email": "ajmhimself@gmail.com",
@@ -22,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/anasjmirza/regex-helper-ts/issues"
   },
-  "homepage": "https://github.com/anasjmirza/regex-helper-ts#readme"
+  "homepage": "https://github.com/anasjmirza/regex-helper-ts#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.1",
+    "rollup": "^4.24.0",
+    "tslib": "^2.8.0"
+  }
 }
